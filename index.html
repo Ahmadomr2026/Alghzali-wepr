@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Omar Al-Ghazali | Portfolio</title>
+    <style>
+        body { 
+            background-color: #000; 
+            color: #00FF00; 
+            font-family: sans-serif; 
+            text-align: center; 
+            margin: 0; 
+            padding: 20px; 
+        }
+        .profile-img { 
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            border: 3px solid #00FF00; 
+            margin-bottom: 10px; 
+        }
+        .section-title { margin: 20px 0 10px; font-size: 20px; color: #fff; }
+
+        .container { display: flex; justify-content: center; gap: 15px; margin-top: 10px; }
+        
+        .btn { 
+            display: block; 
+            background: #111; 
+            color: #00FF00; 
+            border: 2px solid #00FF00; 
+            padding: 10px 15px; 
+            text-decoration: none; 
+            border-radius: 12px; 
+            font-weight: bold; 
+            font-size: 14px; 
+            transition: 0.2s;
+        }
+        
+        .icon { 
+            width: 55px; 
+            height: 55px; 
+            border-radius: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            text-decoration: none; 
+            font-size: 25px; 
+            transition: 0.2s; 
+        }
+        
+        .wa { background: #25D366; color: #fff; }
+        .fb { background: #0084FF; color: #fff; }
+        .tg { background: #0088CC; color: #fff; }
+        
+        .btn:active, .icon:active { transform: scale(0.9); }
+    </style>
+</head>
+<body>
+    <img src="IMG_1000.jpg" alt="Ahmed Omar Al-Ghazali" class="profile-img">
+    <h1>أحمد عمر الغزالي</h1>
+    
+    <h2 class="section-title">📁 المشاريع</h2>
+    <div class="container">
+        <a href="#" class="btn">موقع تعريفي</a>
+        <a href="#" class="btn">سكربت Python</a>
+    </div>
+
+    <h2 class="section-title">📞 تواصل معي</h2>
+    <div class="container">
+        <!-- تم إضافة target="_blank" لفتح الروابط خارج التطبيق -->
+        <a href="https://wa.me/249101593195" target="_blank" class="icon wa">📱</a>
+        <a href="https://www.facebook.com/profile.php?id=61573234461024" target="_blank" class="icon fb">💬</a>
+        <a href="https://t.me/249101593195" target="_blank" class="icon tg">✈️</a>
+    </div>
+</body>
+</html>
